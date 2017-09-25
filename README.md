@@ -20,6 +20,8 @@ https://twitter.com/obencoder/status/639841151802019841
 
 ## 3. install docker image & run
 
+    git clone https://github.com/Oss9935/afl-ffmpeg-opus.git
+    cd afl-ffmpeg-opus
     sudo docker build -t bbkim/afl-ffmpeg-opus .
     sudo docker run -u 0 -i -t --ulimit core=-1 --privileged bbkim/afl-ffmpeg-opus /bin/bash
 
