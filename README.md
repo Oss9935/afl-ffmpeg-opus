@@ -28,4 +28,4 @@ https://twitter.com/obencoder/status/639841151802019841
 ## 4. do fuzz with afl
 
     sudo echo core >/proc/sys/kernel/core_pattern 
-    ./afl-1.92b/afl-fuzz -i ./opus_testvectors/ -o ./findings/ ./ffmpeg/ffmpeg
+    ./afl-*/afl-fuzz -i ./opus_testvectors/ -o ./findings/ ./ffmpeg/ffmpeg
