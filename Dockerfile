@@ -10,8 +10,6 @@ RUN apt-get install -y git make gcc yasm wget
 
 # core_pattern
 RUN apt-get install -y sudo
-RUN echo core | sudo tee /proc/sys/kernel/core_pattern
-
 
 # set up non-root user
 ENV USER worker
