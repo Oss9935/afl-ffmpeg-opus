@@ -11,7 +11,7 @@ https://twitter.com/obencoder/status/639841151802019841
     
     docker -v
     
-## 2. docekr settings
+## 2. docker settings
 
     sudo ufw allow 4243/tcp
     sudo groupadd docker
